@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/lab42/init_vim'
+
+puts Lab42::InitVim.new(ARGV).run
